@@ -1,135 +1,230 @@
-## Python Code Execution Result
+# 📈 Statistical Analysis & Probability Modeling using Python
 
-**Python Interpreter:** `file:///c%3A/Users/SIS/OneDrive/Desktop/R%26W/Mathematics/.venv/Scripts/python.exe`
+![Statistical Analysis Banner](Image_Part-B/Banner.png)
 
-**Exit Code:** 0
+A practical implementation of **Descriptive Statistics**, **Probability Theory**, and **Principal Component Analysis (PCA)** using Python. This project demonstrates how statistical methods and probability concepts can be applied to analyze datasets, visualize patterns, and perform dimensionality reduction for better insights.
 
-**Code Lines:** 111
+## ✨ Project Highlights
 
-**Working Directory:** `file:///c%3A/Users/SIS/OneDrive/Desktop/R%26W/Mathematics`
-
-### Executed Code:
-
-```python
-from pathlib import Path
-path = Path(r"c:\Users\SIS\OneDrive\Desktop\R&W\Mathematics\Final-PR\README.md")
-content = """# Employee Performance Analysis — Final Part B
-
-A polished analytics project that combines descriptive statistics, probability, and linear algebra to evaluate employee performance, promotions, and salary trends.
+- Explore descriptive statistics and data variability.
+- Apply probability concepts such as conditional probability and Bayes' theorem.
+- Analyze distributions and inspect skewness or normality.
+- Use PCA to reduce dimensionality and uncover meaningful patterns.
 
 ---
 
-## 📌 Project Overview
+# 📖 Project Overview
 
-This repository demonstrates a complete data analysis workflow using Python. It explores employee data through:
-
-- descriptive statistics for salary and project completion
-- probability analysis for promotions and departmental relationships
-- visual distribution checks and normality assessments
-- basic linear algebra with employee work vectors
-
-The result is an easy-to-follow analysis that is perfect for learning, presentation, and project evaluation.
+Statistics and probability are essential components of data science and machine learning. This project combines theoretical concepts with practical implementation using Python and Jupyter Notebook. It covers descriptive statistics, probability theory, distribution analysis, and Principal Component Analysis (PCA), providing both mathematical understanding and hands-on experience.
 
 ---
 
-## 📂 What’s Included
+# 🎯 Objectives
 
-- `Final_Part-B.ipynb` — Jupyter notebook containing the full Python solution
-- `Final_Part-A.pdf` — report-style document covering the theory, methodology, and conclusions
-- `employee_performance.csv` — dataset used for all calculations
-- `Image_Part-B/` — notebook screenshots and visual outputs
-- `education_objectives.svg` — reference infographic for this project
-- `README.md` — this file
-
----
-
-## 🔍 Key Learning Topics
-
-### 1. Descriptive Statistics
-
-- calculate mean, median, and mode of employee salaries
-- compute variance and standard deviation for project counts
-- summarize data behavior with distribution metrics
-
-### 2. Probability and Contingency
-
-- compute the overall promotion probability
-- build a contingency table for promotion status versus department
-- calculate conditional probability for promotions when
-  `Performance_Score > 80`
-
-### 3. Distribution Visualization
-
-- create a histogram with a Gaussian (normal) curve
-- measure skewness and kurtosis of salary values
-- draw a Q-Q plot for project completion data
-
-### 4. Linear Algebra Application
-
-- evaluate dot products for example employee vectors
-- compute L1 and L2 norms for work vectors
-- measure the angle between employee activity vectors
+- Calculate descriptive statistical measures.
+- Analyze data dispersion and variability.
+- Study probability concepts and their applications.
+- Compare different probability distributions.
+- Understand conditional probability and Bayes' theorem.
+- Apply Principal Component Analysis (PCA) for dimensionality reduction.
+- Visualize statistical results using Python.
 
 ---
 
-## 🎥 Visual Assets
+# 🛠️ Tools & Technologies
 
-The project includes graphical outputs captured in the `Image_Part-B/` folder:
-
-- `1.png` — dataset preview and initial summary
-- `2.png` — promotion probability and contingency table
-- `3.png` — histogram with Gaussian fit
-- `4.png` — Q-Q plot for normality analysis
-- `5.png` — vector norm calculations
-- `6.png` — vector angle result
-
-You can also open `education_objectives.svg` as a visual reference infographic for the learning goals.
+| Tool | Purpose |
+|------|---------|
+| Python 3.x | Programming Language |
+| Jupyter Notebook | Interactive Development |
+| Pandas | Data Manipulation |
+| NumPy | Numerical Computing |
+| Matplotlib | Data Visualization |
+| SciPy | Statistical Analysis |
 
 ---
 
-## ✅ Why This Project Matters
+# 🔄 Project Workflow
 
-- demonstrates practical use of Python for business analytics
-- combines statistical analysis with probability and linear algebra
-- produces interpretable results and clear visual storytelling
-- supports both academic and professional project presentations
+![Project Workflow Diagram](Image_Part-B/workflow.svg)
 
----
+The workflow below summarizes the main steps of the project:
 
-## ▶️ How to Run the Notebook
-
-1. Open `Final_Part-B.ipynb` in Jupyter Notebook or JupyterLab.
-2. Confirm that `employee_performance.csv` is in the same folder.
-3. Run each cell in sequence to reproduce the analysis and charts.
-
----
-
-## 💡 Recommended Improvements
-
-- add department-level visual summaries for deeper insight
-- explore promotion predictors with machine learning
-- extend analysis to interactive chart dashboards
-- include a PDF summary of results and conclusions
-
----
-
-## 📌 Notes
-
-- `Final_Part-A.pdf` is included for theory and report review.
-- `education_objectives.svg` is a reusable visual asset for this project.
-
-Enjoy exploring the employee performance analysis and the visual story behind the numbers!
-"""
-path.write_text(content, encoding='utf-8')
-print(f'Updated README at {path}')
+```text
+Dataset Collection
+        │
+        ▼
+Data Preparation
+        │
+        ▼
+Descriptive Statistics
+        │
+        ▼
+Probability Analysis
+        │
+        ▼
+Distribution Analysis
+        │
+        ▼
+Principal Component Analysis
+        │
+        ▼
+Result Interpretation
 ```
 
-### Output (stdout and stderr interleaved):
+---
 
+# 📚 Project Modules
+
+## Module 1: Descriptive Statistics
+
+![Descriptive Statistics Illustration](Image_Part-B/1.png)
+
+This module focuses on summarizing numerical data using statistical measures.
+
+### Topics Covered
+
+- Mean
+- Median
+- Mode
+- Range
+- Variance
+- Standard Deviation
+
+### Purpose
+
+To understand the central tendency and spread of the dataset for meaningful interpretation.
+
+---
+
+## Module 2: Probability Theory
+
+![Probability Theory Illustration](Image_Part-B/2.png)
+
+This module introduces probability concepts used for analyzing uncertain events.
+
+### Topics Covered
+
+- Conditional Probability
+- Independent Events
+- Mutually Exclusive Events
+- Bayes' Theorem
+
+### Purpose
+
+To evaluate event probabilities and understand relationships between different events.
+
+---
+
+## Module 3: Distribution Analysis
+
+![Distribution Analysis Illustration 1](Image_Part-B/3.png)
+
+![Distribution Analysis Illustration 2](Image_Part-B/4.png)
+
+Distribution analysis helps identify how data values are spread.
+
+### Topics Covered
+
+- Normal Distribution
+- Poisson Distribution
+- Histogram
+- Skewness
+- Q-Q Plot
+
+### Purpose
+
+To examine data symmetry, identify outliers, and evaluate whether the dataset follows a normal distribution.
+
+---
+
+## Module 4: Principal Component Analysis (PCA)
+
+![PCA Illustration 1](Image_Part-B/5.png)
+
+![PCA Illustration 2](Image_Part-B/6.png)
+
+PCA is a dimensionality reduction technique that transforms correlated variables into fewer principal components.
+
+### PCA Steps
+
+1. Standardize the dataset.
+2. Compute the covariance matrix.
+3. Calculate eigenvalues and eigenvectors.
+4. Select principal components.
+5. Transform the original dataset.
+
+### Advantages
+
+- Reduces dimensionality.
+- Removes redundant information.
+- Improves visualization.
+- Enhances machine learning performance.
+
+---
+
+# 📊 Key Insights
+
+- Mean, Median, and Mode effectively summarize the dataset.
+- Variance and Standard Deviation describe the variability of data.
+- Conditional Probability helps evaluate events under specific conditions.
+- Bayes' Theorem updates probability using new evidence.
+- Normal and Poisson distributions model different types of data.
+- PCA simplifies high-dimensional datasets while preserving important information.
+
+---
+
+# 📂 Repository Structure
+
+```text
+Statistics-Probability-Project/
+│
+├── Final_Part-A.pdf
+├── Final_Part-B.ipynb
+├── README.md
+├── dataset.csv
+└── requirements.txt
 ```
-Updated README at c:\Users\SIS\OneDrive\Desktop\R&W\Mathematics\Final-PR\README.md
-```
 
-### About This Tool
+---
 
-This tool executes Python code directly without shell quoting issues that would occur with `python -c`. It's ideal for running one-off Python snippets without creating temporary files. The output shows stdout and stderr interleaved in chronological order, giving you the exact sequence of output as it would appear when running the code in a terminal.
+# 💼 Skills Demonstrated
+
+- Descriptive Statistics
+- Probability Theory
+- Statistical Analysis
+- Data Visualization
+- Principal Component Analysis (PCA)
+- Feature Reduction
+- Python Programming
+- Scientific Computing
+
+---
+
+# 📖 Learning Outcomes
+
+After completing this project, you will be able to:
+
+- Compute and interpret descriptive statistics.
+- Compare different statistical distributions.
+- Apply conditional probability and Bayes' theorem.
+- Understand data symmetry using skewness.
+- Perform dimensionality reduction using PCA.
+- Create statistical visualizations in Python.
+- Analyze datasets for data-driven decision making.
+
+---
+
+
+# 📦 Deliverables
+
+- **Final_Part-A.pdf** – Theory document containing definitions, equations, and explanations.
+- **Final_Part-B.ipynb** – Python notebook implementing all practical tasks.
+- **README.md** – Project documentation.
+- **Dataset** – Data used for statistical analysis (if applicable).
+
+---
+
+# 📜 Conclusion
+
+This project provides a practical introduction to descriptive statistics, probability theory, and dimensionality reduction using Python. By combining theoretical concepts with hands-on implementation, it demonstrates how statistical techniques can be applied to analyze datasets, discover meaningful patterns, and support data-driven decision making. The project also serves as a strong foundation for advanced topics in data science, machine learning, and predictive analytics.
